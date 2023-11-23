@@ -21,9 +21,19 @@
     },{
       "src":"images/izquierda.png",
       "type": "image/png"
+    },{
+      "src":"images/stayhub_logo.png",
+      "type": "image/png"
+    },{
+      "src":"images/image1.jpg",
+      "type":"image/jpg"
+    },{
+      "src":"images/image2.jpg",
+      "type":"image/jpg"
+    },{
+      "src":"image/image3.jpg",
+      "type":"image/jpg"
     }
-
-
   ],
   "start_url": ".",
   "display": "standalone",

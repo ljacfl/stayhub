@@ -54,18 +54,19 @@ img {
   z-index: 1;
   cursor: pointer;
   margin-right: 350px;
+  left: -20px;
 }
 
 .rightArrow {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  right: 32px;
   font-size: 50px;
   font-weight: 700;
   color: #fff;
   z-index: 1;
   cursor: pointer;
+  right: -20px;
 }
 
 .container-images {
@@ -138,11 +139,13 @@ div.active {
 .llegada-class{
   padding: 10px;
   border-radius:10px 0px 0px 10px ;
+  cursor: pointer;
 }
 
 .salida-class{
   padding: 10px;
   border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
 }
 .reserva-boton{
   margin-inline: auto; 
@@ -154,4 +157,8 @@ div.active {
   cursor: pointer;
   margin-top: 30px;
   display: block;
+}
+
+.description-class{
+  text-align: center;
 }

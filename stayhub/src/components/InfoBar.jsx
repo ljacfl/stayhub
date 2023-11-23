@@ -32,7 +32,9 @@ export const InfoBar = ({precio, subtitulo, descripcion}) => {
                         <h3>{precio}</h3>
                         <span>{subtitulo}</span>
                     </div>
-                    <span>{descripcion}</span>
+                    <div className="description-class">
+                        <span>{descripcion}</span>
+                    </div>
                 </div>
                 <div>
                     <div className="display-flex">

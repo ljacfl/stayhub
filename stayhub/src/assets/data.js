@@ -17,7 +17,7 @@ export const apartments = [
         price: "$550000 COP", 
         pictures: [
             {
-                id:1, imgUrl: "images/sia.jpg"
+                id:1, imgUrl: "images/image1.jpg"
             },{
                 id:2, imgUrl: "images/sib.jpg"
             },{
@@ -31,7 +31,7 @@ export const apartments = [
         price: 550000, 
         pictures: [
             {
-                id:1, imgUrl: "images/sia.jpg"
+                id:1, imgUrl: "images/image2.jpg"
             },{
                 id:2, imgUrl: "images/sib.jpg"
             },{
@@ -45,7 +45,7 @@ export const apartments = [
         price: 550000, 
         pictures: [
             {
-                id:1, imgUrl: "images/sia.jpg"
+                id:1, imgUrl: "images/image3.jpg"
             },{
                 id:2, imgUrl: "images/sib.jpg"
             },{
