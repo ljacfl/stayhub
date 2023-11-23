@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lexend:wght@500&display=swap');
+
 /*carousel classes*/
 ul,
 li {
@@ -10,7 +13,7 @@ li {
 }
 
 img {
-  margin-top: -16px;
+  margin-top: 16px;
 }
 
 /* Main container */
@@ -45,12 +48,12 @@ img {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  left: 32px;
   font-size: 50px;
   font-weight: 700;
   color: #fff;
   z-index: 1;
   cursor: pointer;
+  margin-right: 350px;
 }
 
 .rightArrow {
@@ -78,4 +81,77 @@ div.active {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+
+.images-bar {
+  width: 163px;
+  height: 100px;
+  border-radius: 10px;
+}
+.images-bar-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.reserva-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title-container{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: 'Lexend', sans-serif;
+}
+.span-puntuacion{
+  margin-right: 15px;
+}
+
+.infobar-container{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lexend-type{
+  font-family: 'Lexend', sans-serif;
+}
+
+.lato-type{
+  font-family: 'Lato', sans-serif;
+}
+
+.lable-container{
+  display: block;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.llegada-class{
+  padding: 10px;
+  border-radius:10px 0px 0px 10px ;
+}
+
+.salida-class{
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+.reserva-boton{
+  margin-inline: auto; 
+  background-color: mediumslateblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 30px;
+  display: block;
 }

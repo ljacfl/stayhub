@@ -14,7 +14,7 @@ export const apartments = [
         id: 1, 
         title: "casa frente a la playa", 
         description: "", 
-        price: 550000, 
+        price: "$550000 COP", 
         pictures: [
             {
                 id:1, imgUrl: "images/sia.jpg"
